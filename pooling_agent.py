@@ -17,10 +17,10 @@ from langgraph.graph import StateGraph, END
 # ===============================
 # CHANGE ONLY THIS
 # ===============================
-DATABASE_NAME   = "Chinook"
-SQL_PASSWORD    = "StrongPass@123"
-NEO4J_PASSWORD  = "password"
-GEMINI_API_KEY  = "AIzaSyCBtE_ikAXDjJ7oZS_DaqTqfQuQNKzE9ws"
+DATABASE_NAME   = "DATABASE_NAME"
+SQL_PASSWORD    = "YOUR_PASSWORD"
+NEO4J_PASSWORD  = "YOUR_PASSWORD"
+GEMINI_API_KEY  = "YOUR_API_KEY"
 
 POLL_INTERVAL_SECONDS = 60   # how often to check for changes (change as needed)
 
@@ -473,4 +473,5 @@ def run_pipeline():
 
 
 if __name__ == "__main__":
+
     run_pipeline()
