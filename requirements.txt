@@ -1,0 +1,6 @@
+pandas
+sqlalchemy
+pyodbc
+neo4j
+google-generativeai
+langgraph
